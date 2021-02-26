@@ -14,6 +14,9 @@ public abstract class Mark {
     c: the Color to check against
      */
     public boolean isColor(Color c) {
+        if((color == c) && (color.getRed() == c.getRed()) && (color.getBlue() == c.getBlue()) && (color.getGreen() == c.getGreen()) && (color.getAlpha() == c.getAlpha())){
+            return true;
+        }
         return false;
     }
 

@@ -2,6 +2,7 @@ import bridges.base.Color;
 import bridges.base.ColorGrid;
 
 public class HorizontalLine extends Mark {
+
     private int xStart;
     private int xEnd;
     private int yCoord;

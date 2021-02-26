@@ -3,6 +3,7 @@ import bridges.base.ColorGrid;
 import org.w3c.dom.css.RGBColor;
 
 public class Point extends Mark {
+
     private int xCoord;
     private int yCoord;
 
